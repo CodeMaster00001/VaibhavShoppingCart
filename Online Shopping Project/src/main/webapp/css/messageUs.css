@@ -1,0 +1,61 @@
+/* Input field styles */
+.input-style {
+  width: 60%;
+  padding: 12px 20px;
+  margin-left: 20%;
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Light gray border for better visibility */
+  background-color: #f9f9f9; /* Light gray background for a soft look */
+  color: #333; /* Darker text color for readability */
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Focus effect for inputs and buttons */
+input[type=text]:focus, textarea:focus, button:focus {
+  outline: 4px solid #FFA500; /* Orange outline for focus */
+  background-color: #e0e0e0; /* Light gray background on focus */
+}
+
+/* Textarea styles */
+textarea {
+  height: 250px;
+  font-size: 16px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Button styles */
+.button {
+  background-color: #4CAF50; /* Green background for buttons */
+  border: none;
+  color: white; /* White text color */
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 20%;
+  border-radius: 25px; /* Rounded corners */
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  color: white;
+}
+
+/* Horizontal rule */
+hr {
+  width: 60%;
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Heading styles */
+h3 {
+  text-align: center;
+  color: #fff; /* White text color for headings */
+}

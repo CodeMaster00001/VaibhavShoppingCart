@@ -1,0 +1,272 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+  background: linear-gradient(135deg, #1E90FF, #00BFFF); /* Gradient background from deep blue to sky blue */
+  color: #fff; /* White text color for better contrast */
+}
+
+a {
+  text-decoration: none;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+table {
+  border: 1px solid #444; /* Darker border for a more modern look */
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+  color: yellow; /* Gold color for caption */
+}
+
+table tr {
+  background-color: #333; /* Dark background for table rows */
+  border: 1px solid #555; /* Slightly lighter border */
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  background-color: #222; /* Darker background for table headers */
+  color: #FFD700; /* Gold color for header text */
+}
+
+table tr:hover {
+  background-color: #444; /* Darker shade on hover */
+  color: #FFD700; /* Gold color for text on hover */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #555;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #555;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/*Header Css*/
+* {box-sizing: border-box;}
+    
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #444; /* Dark background for the header */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff; /* White text color for links */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+  color: #FFD700; /* Gold color for link text on hover */
+}
+
+.topnav a.active {
+  background-color: #333; /* Darker background for the active link */
+  color: #FFD700; /* Gold color for active link text */
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #555; /* Dark button background */
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #fff; /* White text color for buttons */
+}
+
+.topnav .search-container button:hover {
+  background: #666; /* Slightly lighter background on hover */
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #555;  
+  }
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Dark background for footer */
+  color: green; /* Gold text color for footer */
+  text-align: center;
+  padding: 10px;
+}
+
+.h2222 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #138808; /* Green color for button */
+  color: white;
+}
+
+/* Form and input styles */
+.input-style {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left: 5%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f0f0f0; /* Light grey background for inputs */
+  color: black;
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+input[type=text]:focus, textarea:focus, button:focus {
+  outline: 4px solid #FFD700; /* Gold outline on focus */
+  background-color: #e0e0e0; /* Slightly darker background on focus */
+}
+
+.button {
+  background-color: #1E90FF; /* Bright blue color for buttons */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 25px; /* Rounded corners for buttons */
+}
+
+.button:hover {
+  background-color: #007acc; /* Darker blue on hover */
+  color: #fff; /* White text on hover */
+}
+
+hr {
+  width: 90%;
+  border: 1px solid #ddd; /* Light border for horizontal rules */
+}
+
+h3 {
+  text-align: center;
+  color: #FFD700; /* Gold color for h3 */
+}
+
+.alert {
+  color: #FFD700; /* Gold color for alerts */
+}
+
+.profile-style {
+  border-style: dotted;
+  border-color: #FFD700; /* Gold color for profile border */
+}
+
+.left-div {
+  width: 50%;
+  display: inline-block;
+}
+
+.right-div {
+  float: right;
+  width: 50%;
+  display: inline-block;
+}

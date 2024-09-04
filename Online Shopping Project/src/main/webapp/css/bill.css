@@ -1,0 +1,138 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+  background-color: #004d00; /* Dark green background */
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Dark gray background for footer */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Input styles */
+.input-style {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left: 5%;
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Light gray border */
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+input[type=text]:focus, textarea:focus, button:focus {
+  outline: 4px solid #FFA500; /* Orange outline */
+  background-color: #e0e0e0; /* Light gray background on focus */
+}
+
+/* Button styles */
+.button {
+  background-color: #008CBA; /* Bright blue background */
+  border: none;
+  color: #fff; /* White text color */
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 25px; /* Rounded corners */
+}
+
+.button:hover {
+  background-color: #005f73; /* Darker blue on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Horizontal rule */
+hr {
+  width: 100%;
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Heading styles */
+h3 {
+  text-align: center;
+  color: #fff; /* White text color for headings */
+}
+
+/* Alert styles */
+.alert {
+  color: #FFD700; /* Gold color for alerts */
+}
+
+/* Profile style */
+.profile-style {
+  border-style: dotted;
+  border-color: #FFD700; /* Gold border for profiles */
+}
+
+/* Button alignment */
+.left-button {
+  width: 48%;
+  display: inline-block;
+}
+
+.right-button {
+  float: right;
+  width: 48%;
+  display: inline-block;
+}
+
+/* Div alignment */
+.left-div {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.right-div {
+  float: right;
+  width: 33.33%;
+  display: inline-block;
+}
+
+.right-div-right {
+  float: right;
+  width: 33.33%;
+  display: inline-block;
+}
+
+/* Table styles */
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+#customers tr:hover {
+  background-color: #ddd; /* Light gray background on hover */
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #004d00; /* Dark green background for header */
+  color: #fff; /* White text color for header */
+}

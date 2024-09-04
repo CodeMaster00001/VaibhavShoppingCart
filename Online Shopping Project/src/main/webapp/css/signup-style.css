@@ -1,0 +1,121 @@
+body {
+  background-color: #0080FF; /* Blue background */
+  font: 1em Helvetica;
+}
+
+#container {
+  width: 840px;
+  margin: 25px auto;
+  margin-top: 50px;
+}
+
+.whysign, .whysignLogin, .whyforgotPassword {
+  float: left;
+  background-color: #F7F9FC; /* Light greyish-blue background for sections */
+  width: 480px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.whysign {
+  height: 528px;
+}
+
+.whysignLogin {
+  height: 347px;
+}
+
+.whyforgotPassword {
+  height: 470px;
+}
+
+.signup {
+  float: left;
+  width: 300px;
+  padding: 30px 20px;
+  background-color: #FFBF00; /* Bright yellow for the signup section */
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+[type=text], [type=email], [type=number], [type=password], select, option {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #333; /* Darker text for better readability */
+  background-color: #E8F0FE; /* Light blue background for inputs */
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #138808; /* Dark green for submit button */
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE; /* Blue color for focus effect */
+}
+
+h1 {
+  color: #FFBF00; /* Bright yellow for the header */
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+p {
+  color: rgba(0,0,0,.6);
+  font-size: 1.2em;
+  margin: 50px 0 50px 0;
+}
+
+span {
+  font-size: .75em;
+  background-color: #F0F4F8; /* Very light blue background for span */
+  padding: 2px 5px;
+  color: #333; /* Dark text for better readability */
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  margin: 5px;
+}
+
+span:hover {
+  color: #53CACE; /* Blue color for hover effect */
+  background-color: #D0E7FF; /* Light blue background on hover */
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
+.message-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align messages to the right */
+  margin: 10px 0;
+}
+
+.message {
+  background-color: #F7F9FC; /* Light greyish-blue background for messages */
+  color: #333; /* Dark text for better readability */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 60%; /* Adjust width as needed */
+  margin-left: auto; /* Ensure margin on the left side to keep messages aligned to the right */
+}
+
